@@ -1,0 +1,14 @@
+.homePage{
+    flex: 1;
+    background-color: #34495e;
+}
+.calendarPage{
+    flex: 1;
+}
+.calendar{
+    width: 100%;
+}
+.settingsPage{
+    flex: 1;
+    background-color: #ff6600;
+}

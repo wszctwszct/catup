@@ -1,0 +1,29 @@
+body{
+  height: 100%;
+}
+.App{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.App-header{
+  display: block;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top:0;
+}
+.App-container{
+  display: block;
+  width: 100%;
+  position: absolute;
+  top:64px;
+}
+.App-navigator{
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
