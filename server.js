@@ -14,9 +14,9 @@ db.connect((err)=>{
         if(err.toString().indexOf('Unknown database') !== -1){
             let sql = `CREATE DATABASE ${database}`;
             const connect = mysql.createConnection({
-                host            : '104.223.43.166',
+                host            : 'xxx',
                 user            : 'root',
-                password        : 'zct19890307',
+                password        : 'xxx',
             });
             connect.query(sql,(err, result)=>{
                 if(err) throw err;
