@@ -4,9 +4,9 @@ const database = 'nodemysql';
 
 //create connection
 /*const db = mysql.createConnection({
-    host            : '104.223.43.166',
+    host            : 'xxx',
     user            : 'root',
-    password        : 'zct19890307',
+    password        : 'xxx',
     database        :  database
 });
 db.connect((err)=>{
@@ -30,9 +30,9 @@ db.connect((err)=>{
 //create pool
 const pool = mysql.createPool({
     connectionLimit: 10,
-    host: '104.223.43.166',
+    host: 'xxx',
     user: 'root',
-    password: 'zct19890307',
+    password: 'xxx',
     database: database
 });
 pool.getConnection(function (err, connection) {
