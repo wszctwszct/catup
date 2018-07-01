@@ -13,7 +13,7 @@ class YMAppBar extends Component {
     render(){
         return(
             <AppBar
-                title="Title"
+                title="Catup"
                 iconElementLeft={<IconButton><NavigationMenu /></IconButton>}
                 iconElementRight={<FlatButton label="Save" />}
                 onLeftIconButtonClick={this.LeftIconButtonClick}
