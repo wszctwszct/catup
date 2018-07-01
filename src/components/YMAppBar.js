@@ -15,7 +15,7 @@ class YMAppBar extends Component {
             <AppBar
                 title="Catup"
                 iconElementLeft={<IconButton><NavigationMenu /></IconButton>}
-                iconElementRight={<FlatButton label="Save" />}
+                iconElementRight={<FlatButton label="请登录" />}
                 onLeftIconButtonClick={this.LeftIconButtonClick}
             />
         )

@@ -1,6 +1,6 @@
 .homePage{
     flex: 1;
-    background-color: #34495e;
+    background: url("../img/bg_1080.jpg") no-repeat center top;
 }
 .calendarPage{
     flex: 1;
@@ -10,5 +10,4 @@
 }
 .settingsPage{
     flex: 1;
-    background-color: #ff6600;
 }
