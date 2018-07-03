@@ -1,8 +1,8 @@
 ## Quick Overview
 
 ```sh
-cd catup
-npm install
-node server.js
-npm start
+$ cd catup
+$ npm install
+$ node server.js
+$ npm start
 ```
