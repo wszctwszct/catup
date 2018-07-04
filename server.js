@@ -2,6 +2,7 @@ const express = require('express');
 const mysql = require('mysql');
 const database = 'nodemysql';
 
+
 //create connection
 /*const db = mysql.createConnection({
     host            : 'xxx',
